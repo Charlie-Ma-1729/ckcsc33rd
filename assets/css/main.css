@@ -1,0 +1,187 @@
+#header ,h1.header ,h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: black;
+}
+
+#header {
+	position: fixed;
+    top: 0px;
+    background-color: darkred;
+    width: 100%;
+    vertical-align: top;
+    text-align: left;
+    display: inline;
+}
+
+h1.header{
+    font-size: 50px;
+    color: white;
+    font-family: "微軟正黑體";
+    text-align: left;
+    display: inline;
+    vertical-align: top;
+}
+
+li.header{
+    text-align: left;
+    display: inline;
+    vertical-align: top;
+    font-size: 40px;
+    color: white;
+    line-height: 55px;
+    float: right;
+    background-color: red;
+    width: 100px;
+    text-align: center;
+    margin: 10px 25px 10px 25px;
+}
+
+.header-right{
+    float: right;
+    height: 100px;
+}
+
+.header-right a{
+    color: white;
+}
+
+#side{
+    background-color: rgba(50, 50, 50, 0.75);
+    float: left;
+    height: 1920px;
+    width: 15%;
+}
+
+img.banner{
+    width: 97.39%;
+    margin: 20px;
+    padding: 0px;
+    border: 0px;
+}
+
+#main{
+    background-color: black;
+    float: right;
+    width: 85%
+    
+}
+
+h1.about, h1.lessons, h1.class{
+    color: white;
+    text-align: center;
+    margin: 40px;
+    font-size: 50px;
+    font-family: "微軟正黑體";
+    line-height: 200px;
+}
+
+h2.about{
+    color: white;
+    text-align: center;
+    margin: 50px;
+    font-size: 30px;
+    font-family: "微軟正黑體";
+}
+
+h2.lessons{
+    color: white;
+    font-family: "微軟正黑體";
+}
+
+h3.lessons{
+    color:white;
+    font-family: "微軟正黑體";
+}
+
+img.apcs{
+    width: 30%;
+    float: left;
+}
+
+#apcs{
+    float: left;
+    width: 50%;
+}
+
+#cpp{
+    float: right;
+    width: 50%;
+}
+
+img.cpp{
+    width: 30%;
+    float: left;
+}
+
+#py{
+    float: left;
+    width: 50%;
+}
+
+img.py{
+    width: 30%;
+    float: left;
+}
+
+#js{
+    float: right;
+    width: 50%;
+}
+
+img.js{
+    width: 30%;
+    float: left;
+}
+
+h2.class{
+    color: white;
+    text-align: center;
+    font-family: "微軟正黑體";
+    font-size: 30px;
+}
+
+h3.class{
+    color: white;
+    text-align: center;
+    font-family: "微軟正黑體";
+    font-size: 20px;
+}
+
+#normal{
+    width: 50%;
+    float: left;
+}
+
+#afterschool{
+    width: 50%;
+    float: right;
+}
+
+img.normal{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+img.afterschool{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+h1.side{
+    color: white;
+    font-family: "微軟正黑體";
+    font-size: 40px;
+    text-align: center;
+}
+}
