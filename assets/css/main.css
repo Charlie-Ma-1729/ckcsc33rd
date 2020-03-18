@@ -57,7 +57,7 @@ li.header{
 #side{
     background-color: rgba(50, 50, 50, 0.75);
     float: left;
-    height: 1920px;
+    height: 2500px;
     width: 15%;
 }
 
@@ -75,7 +75,7 @@ img.banner{
     
 }
 
-h1.about, h1.lessons, h1.class{
+h1.about, h1.lessons, h1.class, h1.notice, h1.activities{
     color: white;
     text-align: center;
     margin: 40px;
@@ -181,7 +181,74 @@ img.afterschool{
 h1.side{
     color: white;
     font-family: "微軟正黑體";
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 }
+
+marquee.notice{
+    color: white;
+    font-size: 30px;
+    font-family: 微軟正黑體;
+    background-color: rgb(46, 45, 45);
+    text-align: center;
+    
+}
+
+h1.notice, h1.activities{
+    margin: 20px 40px 20px 40px;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+h2.side{
+    color: white;
+    font-size: 25px;
+    font-family: 微軟正黑體;
+    text-align: center; 
+}
+
+h2.activities{
+    color: white;
+    font-size: 40px;
+    font-family: 微軟正黑體;
+    text-align: center;
+}
+
+h3.activities{
+    color: white;
+    font-size: 25px;
+    font-family: 微軟正黑體;
+    text-align: center;
+}
+
+img.acr{
+    width: 100%;
+}
+
+img.acl{
+    width: 100%;
+}
+
+#imgl{
+    float: left;
+    width: 36%;
+}
+
+#imgr{
+    float: right;
+    width: 36%;
+}
+
+#summer, #course, #santa, #spring{
+    float: left;
+    height: 350px;
+    width: 64%;
+    background-color: rgb(49, 0, 70);
+}
+
+#fresh, #fall, #winter{
+    float: right;
+    height: 350px;
+    width: 64%;
+    background-color: black;
 }
