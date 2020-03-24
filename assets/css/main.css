@@ -39,7 +39,6 @@ li.header{
     color: white;
     line-height: 55px;
     float: right;
-    background-color: red;
     width: 100px;
     text-align: center;
     margin: 10px 25px 10px 25px;
@@ -57,7 +56,7 @@ li.header{
 #side{
     background-color: rgba(50, 50, 50, 0.75);
     float: left;
-    height: 2500px;
+    height: 5834px;
     width: 15%;
 }
 
@@ -231,24 +230,71 @@ img.acl{
 
 #imgl{
     float: left;
-    width: 36%;
+    width: 32%;
 }
 
 #imgr{
     float: right;
-    width: 36%;
+    width: 32%;
 }
 
 #summer, #course, #santa, #spring{
     float: left;
     height: 350px;
-    width: 64%;
+    width: 68%;
     background-color: rgb(49, 0, 70);
 }
 
 #fresh, #fall, #winter{
     float: right;
     height: 350px;
-    width: 64%;
+    width: 68%;
     background-color: black;
+}
+
+#footer{
+    background-color: rgb(60,0,0);
+}
+
+img.footer{
+    width: 50%;
+    float: left;
+    background-color: rgb(60,0,0);
+}
+
+#rclubs{
+    float: left;
+    background-color: rgb(60,0,0);
+    width: 25%;
+    height: 571px;
+    text-align: center;
+    
+}
+
+h3.footer{
+    color: white;
+    font-size: 32px;
+    margin-top: 200px;
+}
+
+h4.footer{
+    color: white;
+    font-size: 24px;
+}
+
+#c{
+    float: right;
+    background-color: rgb(60,0,0);
+    width: 25%;
+    height: 571px;
+    text-align: center;
+}
+
+h5.c{
+    color: darkgray;
+    font-size: 20px;
+}
+
+i{
+        margin-top: 200px;
 }
