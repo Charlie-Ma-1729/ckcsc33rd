@@ -13,12 +13,31 @@
     <body>  
         <div id="header">
             <h1 class="header">CKCSC成功電研社</h1>
-            <a href="https://url.ckcsc.net/" target="_blank"><li class="header" style="display: inherit">短網址</li></a>
-            <a href="https://oj.ckcsc.net/" target="_blank"><li class="header">線上解題系統</li></a>
-            <a href="#aactivities"><li class="header">活動</li></a>
-            <a href="#aclass"><li class="header">社課</li></a>
-            <a href="#lessons"><li class="header">課程</li></a>
-            <a href="#aabout"><li class="header">關於</li></a>
+            <a href="https://url.ckcsc.net/" target="_blank"><li class="header btnm" style="display: inherit">短網址</li></a>
+            <a href="https://oj.ckcsc.net/" target="_blank"><li class="header btnb">線上解題系統</li></a>
+            <a href="#aactivities"><li class="header btn">活動</li></a>
+            <a href="#aclass"><li class="header btn">社課</li></a>
+            <a href="#lessons"><li class="header btn">課程</li></a>
+            <a href="#aabout"><li class="header btn">關於</li></a>
+            <script>
+            $(".btn").hover(function(){
+                $(this).css({'color':'yellow','text-decoration':'underline','font-size':'35px','margin-left':'15px'})
+            },function(){
+                $(this).css({'color':'','text-decoration':'','font-size':'','margin-left':''})
+            })
+            
+            $(".btnb").hover(function(){
+                $(this).css({'color':'yellow','text-decoration':'underline','font-size':'35px','margin-left':'-5px'})
+            },function(){
+                $(this).css({'color':'','text-decoration':'','font-size':'','margin-left':''})
+            })
+                
+            $(".btnm").hover(function(){
+            $(this).css({'color':'yellow','text-decoration':'underline','font-size':'35px','margin-left':'10px'})
+            },function(){
+            $(this).css({'color':'','text-decoration':'','font-size':'','margin-left':''})
+            })
+            </script>
         </div>
         <div id="banner">
             <img class="banner" src="images/banner.png">
