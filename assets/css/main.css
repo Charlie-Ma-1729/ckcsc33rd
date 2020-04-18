@@ -120,9 +120,10 @@ h3.lessons{
 }
 
 img.apcs{
-    width: 30%;
+    width: 25%;
     float: left;
     border-radius: 90px;
+    margin: 10px;
 
 }
 
@@ -917,7 +918,7 @@ i{
     }
 }
 
-@media (max-width:1240px){
+@media (min-width:801px) and (max-width:1240px){
     #header ,h1.header ,h1 {
         margin: 0;
         padding: 0;
@@ -1288,7 +1289,7 @@ i{
     }
 
     img.apcs{
-        width: 30%;
+        width: 25%;
         float: left;
         border-radius: 90px;
 
