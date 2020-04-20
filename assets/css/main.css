@@ -66,9 +66,23 @@ li.header{
 
 ul.side, a{
     color: white;
-    font-size: large;
+    font-size: 23px;
     font-family: 微軟正黑體;
     font-weight: bold;
+}
+
+h5.side{
+    font-size: 20px; 
+    font-weight: bold;
+    background-color: black;
+    margin: 0;
+}
+
+h6.side{
+    font-size: 16px; 
+    font-weight: normal;
+    background-color: black;
+    margin: 5px;
 }
 
 a.oj, ul.oj, a.game, ul.game, a.rclubs, ul.rclubs{
@@ -89,7 +103,7 @@ img.banner{
 #main{
     float: right;
     width: 85%;
-    height: 4700px;    
+    height: 100%;    
 }
 
 h1.about, h1.lessons, h1.class, h1.notice, h1.activities{
@@ -300,7 +314,7 @@ img.acl{
     background-color: rgba(0,0,70,1);
     height: auto;
     width: 100%;
-    margin-top: 5100px;
+    /*margin-top: 5400px;*/
     padding-bottom: 50px;
 }
 
