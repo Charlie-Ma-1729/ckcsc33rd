@@ -1,4 +1,4 @@
-#header ,h1.header ,h1 {
+﻿#header ,h1.header ,h1 {
     margin: 0;
     padding: 0;
     border: 0;
@@ -204,12 +204,14 @@ img.normal{
     width: 70%;
     display: block;
     margin: auto;
+	border-radius: 10px;
 }
 
 img.afterschool{
     width: 70%;
     display: block;
     margin: auto;
+	border-radius: 10px;
 }
 
 h1.side{
@@ -264,6 +266,10 @@ h2.side{
     text-align: center; 
 }
 
+	#activities{
+		margin: 0 10px 0 10px;
+	}
+
 h2.activities{
     color: white;
     font-size: 40px;
@@ -280,10 +286,12 @@ h3.activities{
 
 img.acr{
     width: 100%;
+	border-radius: 10px;
 }
 
 img.acl{
     width: 100%;
+	border-radius: 10px;
 }
 
 #imgl{
@@ -314,7 +322,7 @@ img.acl{
     background-color: rgba(0,0,70,1);
     height: auto;
     width: 100%;
-    margin-top: 5400px;
+    margin-top: 5420px;
     padding-bottom: 50px;
 }
 
@@ -781,12 +789,14 @@ i{
         width: 70%;
         display: block;
         margin: auto;
+		border-radius: 10px;
     }
     
     img.afterschool{
         width: 70%;
         display: block;
         margin: auto;
+		border-radius: 10px;
     }
     
     h1.side{
@@ -857,10 +867,12 @@ i{
     
     img.acr{
         width: 100%;
+		border-radius: 10px;
     }
 
     img.acl{
         width: 100%;
+		border-radius: 10px;
     }
     
     #imgl{
@@ -1372,12 +1384,14 @@ i{
         width: 70%;
         display: block;
         margin: auto;
+		border-radius: 10px;
     }
 
     img.afterschool{
         width: 70%;
         display: block;
         margin: auto;
+		border-radius: 10px;
     }
 
     h1.side{
@@ -1448,10 +1462,12 @@ i{
 
     img.acr{
         width: 100%;
+		border-radius: 10px;
     }
 
     img.acl{
         width: 100%;
+		border-radius: 10px;
     }
     
     #imgl{
