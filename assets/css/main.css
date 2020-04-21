@@ -85,6 +85,12 @@ h6.side{
     margin: 5px;
 }
 
+i.sideicon{
+    font-size: 30px;
+    color: white;
+    margin: 0 3px 0 3px;
+}
+
 a.oj, ul.oj, a.game, ul.game, a.rclubs, ul.rclubs{
     color: white;
     font-size: large;
@@ -266,9 +272,9 @@ h2.side{
     text-align: center; 
 }
 
-	#activities{
-		margin: 0 10px 0 10px;
-	}
+#activities{
+margin: 0 10px 0 10px;
+}
 
 h2.activities{
     color: white;
@@ -658,6 +664,16 @@ i{
     }
 
     iframe{
+        display: none;
+    }
+    
+    i.sideicon{
+        font-size: 30px;
+        color: white;
+        margin: 0 3px 0 3px;
+    }
+    
+    h6.side{
         display: none;
     }
     
@@ -1263,6 +1279,16 @@ i{
     }
 
     iframe{
+        display: none;
+    }
+    
+    i.sideicon{
+        font-size: 30px;
+        color: white;
+        margin: 0 3px 0 3px;
+    }
+    
+    h6.side{
         display: none;
     }
     
