@@ -3,12 +3,17 @@
 	<head>
 		<title>CKCSC成功電研社</title>
 		<meta charset="utf-8" />
-        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" id="stylesheet" type="text/css" href="main.css" />
         <link rel="stylesheet" href="assets/css/fontawsome.css">
-        <script src="assets/js/jquery-3.4.1.min.js"></script>
-        <script src="assets/js/all.js"></script>
+        <script src="assets/js/jquery-3.4.1.min.js"></script>   
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script>
+            function setStyleSheet(url){
+                var stylesheet = document.getElementById("stylesheet");
+                    stylesheet.setAttribute('href', url);
+            }
+    </script>
 	</head>
     <body>  
         <div id="header">
@@ -219,9 +224,11 @@
         <div id="footer">
                 <img src="images/CKCSC33rd.png" class="footer">
                 <div id="c">
-                    <a href="https://www.facebook.com/club.ckcsc.info/" target="_blank"><i class="fa fa-facebook-official" style="font-size:48px;color:white;"></i></a>
-                    <a href="https://www.instagram.com/ckcsc33rd_diary/" target="_blank"><i class="fa fa-instagram" style="font-size:48px;color:white;"></i></a>  
+                    <a href="https://www.facebook.com/club.ckcsc.info/" target="_blank"><i class="c fa fa-facebook-official"></i></a>
+                    <a href="https://www.instagram.com/ckcsc33rd_diary/" target="_blank"><i class="c fa fa-instagram"></i></a>  
                     <h5 class="c">CKCSC © 2020<br>designed by TGoC_Charlie<br>All rights reserved</h5>
+                    <a onclick="setStyleSheet('main.css') " href="#">dark mode</a>
+                    <a onclick="setStyleSheet('light.css') " href="#">light mode</a>
                 </div>
             <div id="notice">
                 <marquee direction="up" ; height="50px" ; scrollamount="5" ; behavior="slide" class="noticet">公告</marquee>
