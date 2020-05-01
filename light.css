@@ -359,7 +359,7 @@ h4.footer{
 }
 
 #c{
-    background-color: gray;
+    background-color: #999999;
     width: 100%;
     height: auto;
     text-align: center;
@@ -958,7 +958,7 @@ i.c{
     }
     
     h5.c{
-        color: darkgray;
+        color: #999999;
         font-size: 24px;
         margin: 5px 0 30px 0;
     }
@@ -1531,7 +1531,6 @@ i.c{
     }
 
     #footer{
-        background-color: rgba(0,0,40,0);
         height: auto;
         width: 100%;
     }
@@ -1568,15 +1567,14 @@ i.c{
     }
     
     h5.c{
-        color: darkgray;
+        color: black;
         font-size: 24px;
         margin: 5px 0 30px 0;
-        background-color: gray;
     }
     
     i.c{
         margin: 20px 0 5px 0;
         font-size:48px;
-        color:white;
+        color: black;
     }
 }
