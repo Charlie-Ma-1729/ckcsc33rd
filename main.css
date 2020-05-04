@@ -57,6 +57,27 @@ li.header{
     color: white;
 }
 
+li.btn:hover{
+    color: yellow;
+    text-decoration: underline;
+    font-size: 35px;
+    margin-left: 15px;
+}
+
+li.btnb:hover{
+    color: yellow;
+    text-decoration: underline;
+    font-size: 35px;
+    margin-left: -5px;
+}
+
+li.btnm:hover{
+    color: yellow;
+    text-decoration: underline;
+    font-size: 35px;
+    margin-left: 10px;
+}
+
 #side{
     float: left;
     height: auto;
