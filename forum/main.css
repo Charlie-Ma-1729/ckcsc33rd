@@ -10,7 +10,7 @@ body{
     padding: 0;
     border: 0;
     /*background-image: url(images/A1rL6udG2dL._A_SL1500_.jpg);*/
-    background-color: black;
+    background-color: #333333;
 } 
 
 #header {
@@ -193,7 +193,14 @@ a.profile{
     background-color: rgba(0,0,70,1);
     height: auto;
     width: 100%;
-    margin-top: 5420px;
+    margin-top: 50px;
+}
+
+a{
+    color: white;
+    font-size: 23px;
+    font-family: 微軟正黑體;
+    font-weight: bold;
 }
 
 img.footer{
