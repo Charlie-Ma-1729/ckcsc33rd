@@ -98,7 +98,17 @@ h1.title{
     margin: 20px;
 }
 
-#announcement{
+a.post{
+    background-color: blue;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px 15% 50px 75%;
+    line-height: 100px;
+    width: 5%;
+    border-radius: 5px;
+}
+
+#posts{
     background-color: gray;
     padding: 20px;
     border-radius: 10px;
@@ -107,7 +117,7 @@ h1.title{
     margin:0px auto;
 }
 
-#noticeblock{
+#block{
     background-color: lightgray;
     margin:5px auto;
     width: 100%;
