@@ -78,25 +78,87 @@ li.btnm:hover{
     margin-left: 10px;
 }
 
-#side{
-    float: left;
-    height: auto;
-    width: 15%;
-    border-radius: 0 10px 10px 0;
+#main{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;    
 }
 
-#main{
-    float: right;
-    width: 85%;
-    height: 100%;    
+#loginblock{
+    background-color: #bfbfbf;
+    margin: 20px auto;
+    width: 640px;
+    height: 800px;
+    border-radius: 16px;
+}
+
+h1.title{
+    font-size: 72px;
+    text-align: center;
+    margin: 20px;
+    color: black;
+    line-height: 100px;
+}
+
+img.login{
+    margin: 0 35%;
+    width: 30%;
+    border-radius: 50%;
+}
+
+h2.login{
+    font-size: 36px;
+    text-align: center;
+    color: black;
+    margin: 20px;
+}
+
+input.login{
+    font-size: 18px;
+    margin: 0 25%;
+    color: black;
+    width: 50%;
+}
+
+input.submit{
+    font-size: 18px;
+    margin: 50px 40%;
+    color: black;
+    width: 20%;
+}
+
+li.loginu{
+    font-size: 20px;
+    margin: 0px 42%;
+    margin-top: 50px;
+    width: 16%;
+    text-align: center;
+    list-style: none;
+    color: blue;
+}
+
+li.logind{
+    font-size: 20px;
+    margin: 0px 42%;
+    margin-bottom: 50px;
+    width: 16%;
+    text-align: center;
+    list-style: none;
+    color: blue;
 }
 
 #footer{
     background-color: lightgray;
     height: auto;
     width: 100%;
-    margin-top: 5420px;
-    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+a.sd{
+    color: black;
+    font-size: 23px;
+    font-family: 微軟正黑體;
+    font-weight: bold;
 }
 
 img.footer{
